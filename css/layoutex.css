@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px;
+}
+
+.baris1 {
+  width: calc((100% - 10px) / 3);
+  height: 150px;
+  object-fit: cover;
+  box-sizing: border-box;
+  border: 2px solid #333;
+}
+
+.baris2 {
+  width: calc((100% - 20px) / 5);
+  height: 150px;
+  object-fit: cover;
+  box-sizing: border-box;
+  border: 2px solid #333;
+}
